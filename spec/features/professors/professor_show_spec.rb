@@ -32,5 +32,13 @@ RSpec.describe "PROFESSORS show page - A user", type: :feature do
     expect(page).to_not have_content("Name: #{@longbottom.name}")
   end
 
+  it "can see average age for all students" do
+    visit "/professors/#{@hagarid.id}"
 
+    expect(page).to have_content("Average Age: #{@hagarid.average_student_age.round(2)}")
+
+    visit "/professors/#{@lupin.id}"
+
+    expect(page).to have_content("Average Age: #{@lupin.average_student_age.round(2)}")
+  end
 end
