@@ -205,13 +205,31 @@
       "/Users/andy/turing/2module/challenges/hogwarts_again/config/routes.rb": {
         "lines": [
           1,
-          null,
+          1,
           null
         ]
       },
       "/Users/andy/turing/2module/challenges/hogwarts_again/app/helpers/application_helper.rb": {
         "lines": [
           1,
+          null
+        ]
+      },
+      "/Users/andy/turing/2module/challenges/hogwarts_again/spec/models/professor_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
           null
         ]
       },
@@ -281,8 +299,25 @@
           1,
           null
         ]
+      },
+      "/Users/andy/turing/2module/challenges/hogwarts_again/app/controllers/professors_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/andy/turing/2module/challenges/hogwarts_again/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1585322008
+    "timestamp": 1585323101
   }
 }
