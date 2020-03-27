@@ -208,6 +208,7 @@
           1,
           1,
           null,
+          1,
           null
         ]
       },
@@ -252,6 +253,42 @@
           1,
           1,
           null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/andy/turing/2module/challenges/hogwarts_again/spec/features/students/student_index_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
           null,
           null,
           null
@@ -339,6 +376,10 @@
           1,
           1,
           1,
+          null,
+          1,
+          6,
+          null,
           null
         ]
       },
@@ -362,8 +403,18 @@
           1,
           null
         ]
+      },
+      "/Users/andy/turing/2module/challenges/hogwarts_again/app/controllers/students_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1585324531
+    "timestamp": 1585325428
   }
 }
