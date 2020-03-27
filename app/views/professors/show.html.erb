@@ -1,7 +1,7 @@
 <content>
   <h1><%= "#{@professor.name}" %></h1>
   <p> <%= "Average Age: #{@professor.average_student_age.round(2)}" %>
-  <% @professor.students.each do |student| %>
+  <% @professor.sorted_students.each do |student| %>
       <p><%= "Name: #{student.name}" %></p>
   <% end %>
 </content>

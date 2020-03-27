@@ -7,4 +7,8 @@ class Professor <ApplicationRecord
     total_age = students.sum { |student| student.age}
     total_age / students.length
   end
+
+  def sorted_students
+    students.order(:name)
+  end
 end
